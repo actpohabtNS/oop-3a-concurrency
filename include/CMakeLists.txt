@@ -1,12 +1,6 @@
-file(GLOB_RECURSE HEADER_FILES
-        *.hpp
-        )
+file(GLOB_RECURSE HEADER_FILES *.hpp)
 
-file(GLOB_RECURSE SOURCE_FILES
-        *.cpp
-        )
-
-
+file(GLOB_RECURSE SOURCE_FILES *.cpp)
 
 add_library(MergeSortLib STATIC ${HEADER_FILES} ${SOURCE_FILES})
 
