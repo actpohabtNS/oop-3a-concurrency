@@ -1,7 +1,6 @@
 #include <doctest/doctest.h>
 #include <algorithm>
 #include <vector>
-#include <functional>
 
 #include "MergeSort.hpp"
 
