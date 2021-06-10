@@ -1,6 +1,7 @@
-file(GLOB SOURCE_FILES
-        *.cpp)
+set(TARGET LabGA_Tests)
 
-add_executable(Tests ${SOURCE_FILES})
+file(GLOB SOURCE_FILES *.cpp)
 
-target_link_libraries(Tests PRIVATE doctest_with_main MergeSortLib)
+add_executable(${TARGET} ${SOURCE_FILES})
+
+target_link_libraries(${TARGET} PRIVATE doctest_with_main MergeSortLib)
