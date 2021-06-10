@@ -2,7 +2,7 @@
 #include <algorithm>
 
 template <typename T>
-void merge(T arr[], T temp[], int from, int mid, int to)
+void merge(T* arr, T* temp, int from, int mid, int to)
 {
     int temp_idx = 0, first_idx = from, second_idx = mid+1;
 
@@ -30,7 +30,7 @@ void merge(T arr[], T temp[], int from, int mid, int to)
 }
 
 template <typename T>
-void mergesort(T arr[], T temp[], int n)
+void mergesort(T* arr, T* temp, int n)
 {
     for (int curr_size = 1; curr_size <= n-1; curr_size *= 2)
     {
