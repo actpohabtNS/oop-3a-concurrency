@@ -1,4 +1,5 @@
 #include <iostream>
+#include <exception>
 
 int main() try {
     std::cout << "Hello there" << std::endl;
