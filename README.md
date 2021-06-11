@@ -1,2 +1,2 @@
 # oop-3a-concurrency
-OOP lab 3a about concurrent algorithms
+Sequantial and concurrent realization of **merge sort** with corresponding benchmark, tests and documentation.
